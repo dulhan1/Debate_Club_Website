@@ -1,0 +1,151 @@
+    @media only screen and (max-width: 1000px){
+ .title {
+   background-color: #f4f7f6; 
+   padding: 0; 
+   text-align: center
+   }
+   
+ #hwhspic {
+ display: none;
+ }
+ 
+ #hwhstitle 
+ { font-size: 100px;
+ padding: 0; 
+ color: #0099ff;
+  text-shadow: 2px 2px #D3D3D3;
+   text-align: center;
+   }
+   
+  #hwhstitle a {
+ text-decoration: none;
+  color: #0099ff; 
+  text-shadow: 2px 2px #D3D3D3
+   }
+   
+ #hwhstitle a:hover {
+ color: #0099ff
+ }
+   
+ .navigation ul {
+ display: none
+ }
+ 
+ .drop-cont{
+ z-index:1; 
+ display: none; 
+ position: absolute; 
+ text-align: center;
+  right:200px; 
+  left: 200px;
+  }
+  
+ .dropbtn {
+ font-size: 60px;
+ text-align: center;
+  margin-right: auto;
+   margin-left: auto;
+    }
+    
+ .dropdown {
+ text-align: center;
+    position: relative;
+    display:block; 
+    margin-right: auto; 
+    margin-left: auto 
+    }
+
+ .dropdown:hover .drop-cont {
+  display: block;
+   background-color: black; 
+   }
+     
+.dropdown:hover .dropbtn {
+text-align: center;
+ background-color: #0099ff;
+ }
+ 
+.drop-cont a:hover {
+background-color: #ffffff
+}
+
+.drop-cont a {
+ color: white;
+ padding: 15px 20px;
+ text-decoration: none; 
+ display: block; 
+ font-size: 40px;
+ }
+
+
+ 
+ .all-content {
+ background-color: #f4f7f6; 
+ padding: 0; 
+ }
+ 
+ .bodytitle {
+ text-align:center; 
+ margin: 0; 
+ background-color: #0099ff; 
+ color: white; 
+ font-size: 20px
+ }
+ 
+ .sectionhead { 
+ color: black; 
+ margin: 0; 
+ background-color: #f4f7f6; 
+ font-size: 20px
+ }
+  p {
+  margin: 0; 
+  background-color: #f4f7f6; 
+  }
+  
+ .maincontent {
+ padding: 0
+ }
+ 
+  .welcome {
+  color: black; 
+  text-align: center; 
+  padding: 300px 0 300px 0;  
+  background-image: url('http://sweetbeginningslv.com/wp-content/uploads/2015/04/abstract-design-wallpaper-colorful-background-wallpapers-website.jpg');
+  background-repeat: repeat-y;
+  bakground-size: 800px 800px;
+	}
+
+ .twitter {
+ display: none 
+ }
+ 
+ .twitterm {
+ text-align: center; 
+ padding: 10px; 
+ width: 80%;  
+ display: block; 
+ margin-top: 20px; 
+ margin-left: auto; 
+ margin-right: auto; 
+ margin-bottom: 0; 
+ height: 80% 
+ }
+ 
+ .footer { 
+ text-align: center; 
+ position: absoulte; 
+ bottom: 0  
+ }
+ 
+ body { 
+ padding: 10px; 
+ margin: 0; 
+ background-image: url(http://sweetbeginningslv.com/wp-content/uploads/2015/04/abstract-design-wallpaper-colorful-background-wallpapers-website.jpg') 
+ }
+ 
+ html {
+ background-color: #f4f7f6
+ }
+ 
+ }

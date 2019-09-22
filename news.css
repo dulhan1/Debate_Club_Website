@@ -1,0 +1,198 @@
+ @media only screen and (max-width: 1000px){
+ .title {
+   background-color: 
+   #f4f7f6; padding: 0; 
+   text-align: center}
+   #hwhspic {display: none;
+   }
+   
+   #hwhstitle 
+   { 
+   font-size: 100px;
+   padding: 0; color: #0099ff;
+   text-shadow: 2px 2px #D3D3D3;
+   text-align: center;
+   }
+   
+ #hwhstitle a {
+ text-decoration: none;
+  color: #0099ff; 
+  text-shadow: 2px 2px #D3D3D3
+   }
+   
+  #hwhstitle a:hover {
+ color: #0099ff
+ }
+
+ .navigation ul {
+  display: none}
+  .drop-cont{
+  z-index:1; 
+  display: none;
+  position: absolute;
+  text-align: center;
+  right:200px; 
+  left: 200px;
+  }
+  
+ .dropbtn {font-size: 60px; text-align: center; margin-right: auto; margin-left: auto; }
+ .dropdown {text-align: center;
+    position: relative;
+    display:block; margin-right: auto; margin-left: auto }
+
+ .dropdown:hover .drop-cont {
+    display: block;
+    background-color: black;
+     }
+     
+.dropdown:hover .dropbtn {text-align: center;
+    background-color: #0099ff;}
+.drop-cont a:hover {background-color: #ffffff}
+
+.drop-cont a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    
+}
+
+ 
+ .content {background-color: #f4f7f6; padding: 0;  }
+ .bodytitle {text-align:center; margin: 0; background-color: #0099ff; color: white; font-size: 40px}
+ .sectionhead { color: black; margin: 0; background-color: #f4f7f6; font-size: 20px}
+  p {margin: 0; background-color: #f4f7f6; }
+ .maincontent {padding: 0}
+ 
+ .img1 {display: block;  padding: 20px 0 0 0; width: 100%;}
+ 
+ .twitter{display: none}
+ .twitterm {text-align: center; padding: 10px 30px; width: 80%;  display: block; margin: 0 auto; height: 80%; display: block}
+ .news {display:none}
+ .newsm {background-color: #f4f7f6; padding: 10px 30px 10px 30px}
+ 
+ .footer {display: none }
+ body { min-height: 100vh; padding: 10px; margin: 0; background-color: #f4f7f6}
+ html {height: 100%; margin: 0; background-color: #f4f7f6; box-sixing: border-box}
+ 
+
+
+ }
+  
+ 
+ @media only screen and (min-width: 1000px){
+ .title {  
+   background-color: #f4f7f6;
+   padding: 20px 0
+  }
+  
+ #hwhspic {
+  width: 125px; 
+  vertical-align: middle
+ }
+ 
+ #hwhstitle {
+   font-size: 30px;
+   padding: 50px 0 0 20px;
+   color: #0099ff;
+   text-shadow: 2px 2px #D3D3D3
+    }
+    
+ .navigation ul {
+   padding: 20px 0px; 
+   text-align: center; 
+   border: solid 0px; 
+   background-color: #f4f7f6; 
+   margin: 0; }
+  
+ .navigation ul li { 
+   padding: 0 20px; 
+   background-color: #f4f7f6; 
+   display: inline-block; 
+   font-size: 20px; 
+ } 
+ 
+
+ 
+ a {
+ text-decoration: none;
+  color: red; 
+  text-shadow: 2px 2px #D3D3D3
+   }
+ 
+ a:hover {
+ color: grey
+ }
+ .dropdown {
+   display: none
+ }
+ 
+ .content {
+   background-color: #f4f7f6; padding: 0 10px;
+ }
+ 
+ .bodytitle {
+   text-align:center;
+   font-size: 20px;
+   background-color: #0099ff;
+   color: white; margin: 0
+ }
+
+ .news {
+  display: inline-block;
+  float: left;  
+  background-color: #f4f7f6;
+  width: 70%; 
+  float: left 
+ }
+  
+ .newsm {
+ display: none
+ }
+
+.twitterm {
+display: none
+}
+
+.twithold {
+background-color: #f4f7f6
+}
+
+.twitter {
+  text-align: center;
+  display: block; 
+  padding: 20px 0 0 0;
+  float: right; 
+  width: 30%}
+   
+ .footer {
+   text-align: center;
+   font-size: 15px; 
+   background-color: #0099ff; 
+   bottom:0px; 
+   right: 0px; 
+   left: 0px;
+   position: fixed; 
+   color: white; 
+   display: block 
+  }
+
+ body {
+  background-color: #f4f7f6;
+  margin: 0 auto;
+  position: relative;
+  height: 1200px; 
+  min-height: 100vh
+    }
+    
+ html {
+  height: 100%; 
+  margin: 0 150px;
+  background-image: url('http://sweetbeginningslv.com/wp-content/uploads/2015/04/abstract-design-wallpaper-colorful-background-wallpapers-website.jpg');  
+  background-repeat: repeat;
+  background-size: 4000px 1100px ; box-sixing: border-box; 
+  }
+  }
+  
+ 

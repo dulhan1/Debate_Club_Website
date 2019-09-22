@@ -1,0 +1,97 @@
+ @media only screen and (max-width: 1000px){
+  	 .title {  background-color: #f4f7f6; padding: 0; text-align: center}
+ #hwhspic {display: none;}
+ #hwhstitle { font-size: 100px;padding: 0; color: #0099ff; text-shadow: 2px 2px #D3D3D3; text-align: center;}
+ 
+ .navigation ul {display: none}
+ 
+   #hwhstitle a {
+ text-decoration: none;
+  color: #0099ff; 
+  text-shadow: 2px 2px #D3D3D3
+   }
+   
+  #hwhstitle a:hover {
+ color: #0099ff
+ }
+ 
+ .drop-cont{z-index:1; display: none; position: absolute; text-align: center; right:200px; left: 200px;}
+ .dropbtn {font-size: 60px; text-align: center; margin-right: auto; margin-left: auto; }
+ .dropdown {text-align: center;
+    position: relative;
+    display:block; margin-right: auto; margin-left: auto }
+
+ .dropdown:hover .drop-cont {
+    display: block;
+    background-color: black;
+     }
+     
+.dropdown:hover .dropbtn {text-align: center;
+    background-color: #0099ff;}
+.drop-cont a:hover {background-color: #ffffff}
+
+.drop-cont a {
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    
+}
+ 
+ .content {background-color: #f4f7f6; padding: 0 10px;}
+	 .maincontent {display: block; text-align: center; margin-right: auto; margin-left: auto; font-size: 40px}
+ .bodytitle {text-align:center; margin: 0; background-color: #0099ff; color: white; font-size: 40px}
+ 
+ .pass {font-size: 50px}
+ .submit {display: block; margin-right: auto; margin-left: auto; font-size: 40px}
+	 
+
+#uuvzs73l1dt4lk1prm0 {font-size: 100px; }
+ 
+ .footer {display: none }
+ body { padding: 10px; margin: 0; background-color: #f4f7f6}
+ html {height: 100%; margin: 0; background-color: #f4f7f6; box-sixing: border-box}
+ 
+
+
+ }
+ 
+
+
+ @media only screen and (min-width: 1000px){
+
+ 
+ .title {  background-color: #f4f7f6; padding: 20px 0}
+ #hwhspic {width: 125px; vertical-align: middle}
+ #hwhstitle { font-size: 30px;padding: 50px 0 0 20px; color: #0099ff; text-shadow: 2px 2px #D3D3D3}
+ .navigation ul { padding: 20px 0px; text-align: center; border: solid 0px; background-color: #f4f7f6; margin: 0; }
+ .navigation ul li { padding: 0 20px; background-color: #f4f7f6; display: inline-block; font-size: 20px; } 
+
+ 
+  a {
+ text-decoration: none;
+  color: red; 
+  text-shadow: 2px 2px #D3D3D3
+   }
+ 
+ a:hover {
+ color: grey
+ }
+ .dropdown {display: none}
+ 
+ 
+ .content {background-color: #f4f7f6; padding: 0 10px;}
+	 .maincontent {display: block; text-align: center; margin-right: auto; margin-left: auto}
+ .bodytitle {text-align:center; margin: 0; background-color: #0099ff; color: white; font-size: 20px}
+
+ 
+ .footer {text-align: center; font-size: 15px; background-color: #0099ff; bottom:0; right: 0px; left: 0px; 
+ position: fixed; color: white;
+ }
+
+ body {background-color: #f4f7f6; min-height: 100%; margin: 0 auto; position: relative; }
+	 html {height: 100%; margin: 0 150px; background-image: url('http://sweetbeginningslv.com/wp-content/uploads/2015/04/abstract-design-wallpaper-colorful-background-wallpapers-website.jpg');  background-repeat: repeat;
+	 
+	 background-size: 1200px 1200px ; box-sixing: border-box}
+	 }
